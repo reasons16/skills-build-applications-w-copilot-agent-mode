@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
     {
       "name": "Launch Django Backend",
       "type": "python",
@@ -18,10 +19,10 @@
     },
     {
       "name": "Launch React Frontend",
-      "type": "node",
+      "type": "pwa-node",
       "request": "launch",
-      "program": "${workspaceFolder}/octofit-tracker/frontend/node_modules/react-scripts/scripts/start.js",
-      "cwd": "${workspaceFolder}/octofit-tracker/frontend",
+      "program": "${workspaceFolder}/octofit-tracker/frontend/app/node_modules/react-scripts/scripts/start.js",
+      "cwd": "${workspaceFolder}/octofit-tracker/frontend/app",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["start"],
       "port": 3000,
