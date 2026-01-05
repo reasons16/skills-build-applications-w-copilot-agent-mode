@@ -1,3 +1,9 @@
+# Django REST Framework: Allow unauthenticated (public) access to all API endpoints
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ],
+}
 """
 Django settings for octofit_tracker project.
 
